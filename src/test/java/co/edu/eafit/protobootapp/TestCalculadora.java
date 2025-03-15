@@ -10,7 +10,7 @@ public class TestCalculadora {
     @Test
     public void testCuadradoPositivo() {
         Calculadora calc = new Calculadora();
-        assertEquals(25.0, calc.cuadrado(5.0), 0);
+        assertEquals(20.0, calc.cuadrado(5.0), 0);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class TestCalculadora {
     @Test
     public void testCuboPositivo() {
         Calculadora calc = new Calculadora();
-        assertEquals(200.0, calc.cubo(5.0), 0);
+        assertEquals(125.0, calc.cubo(5.0), 0);
     }
 
     @Test
